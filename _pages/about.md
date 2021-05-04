@@ -6,7 +6,7 @@ description: Astrophysicist
 
 profile:
   align: right
-  image: profile.jpg
+  image: prof_pic.jpg
   address: >
     <p>Office P-223</p>
     <p>Center for Astrophysics<p>
