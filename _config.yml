@@ -142,9 +142,9 @@ github: [metadata]
 scholar:
 
   last_name: Smith
-  first_name: [Matthew, C.]
+  first_name: [Matthew, Matthew C.]
 
-  style: the-astrophysical-journal
+  style: apa
   locale: en
 
   source: /_bibliography/
