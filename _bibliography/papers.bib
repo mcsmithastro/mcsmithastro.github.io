@@ -1,6 +1,26 @@
 ---
 ---
 
+@ARTICLE{2021MNRAS.506.3882,
+       author = {{Smith}, M. C. and {Bryan}, G. L. and {Somerville}, R. S. and {Hu}, C.-Y. and {Teyssier}, R. and {Burkhart}, B. and {Hernquist}, L.},
+        title = "{Efficient early stellar feedback can suppress galactic outflows by reducing supernova clustering}",
+      journal = {MNRAS},
+      abbr = {MNRAS},
+     keywords = {galaxies: formation, galaxies: evolution, methods: numerical, Astrophysics - Astrophysics of Galaxies},
+         year = 2021,
+        month = jul,
+        volume = {506},
+        pages = {3882},
+          doi = {10.1093/mnras/stab1896},
+archivePrefix = {arXiv},
+       eprint = {2009.11309},
+ primaryClass = {astro-ph.GA},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2021MNRAS.tmp.1675S},
+       html = {https://academic.oup.com/mnras/article/506/3/3882/6316796?guestAccessKey=6b41dc84-ee81-4f87-bb78-e3c63571d1ad},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+      abstract = {We present a novel set of stellar feedback models, implemented in the moving-mesh code AREPO, designed for galaxy formation simulations with near-parsec (or better) resolution. These include explicit sampling of stars from the IMF, allowing feedback to be linked to individual massive stars, an improved method for the modelling of H II regions, photoelectric heating from a spatially varying FUV field and supernova feedback. We perform a suite of 32 simulations of isolated M<sub>vir</sub> = 10<sup>10</sup> M<sub>\odot</sub> galaxies with a baryonic mass resolution of 20 M<sub>\odot</sub> in order to study the non-linear coupling of the different feedback channels. We find that photoionization and supernova feedback are both independently capable of regulating star formation to the same level, while photoelectric heating is inefficient. Photoionization produces a considerably smoother star formation history than supernovae. When all feedback channels are combined, the additional suppression of star formation rates is minor. However, outflow rates are substantially reduced relative to the supernova only simulations. We show that this is directly caused by a suppression of supernova clustering by the photoionization feedback, disrupting star forming clouds prior to the first supernovae. We demonstrate that our results are robust to variations of our star formation prescription, feedback models and the baryon fraction of the galaxy. Our results also imply that the burstiness of star formation and the mass loading of outflows may be overestimated if the adopted star particle mass is considerably larger than the mass of individual stars because this imposes a minimum cluster size.}
+}
+
 @ARTICLE{2021MNRAS.502.5417S,
        author = {Smith, M. C.},
         title = "{The sensitivity of stellar feedback to IMF averaging versus IMF sampling in galaxy formation simulations}",
@@ -42,24 +62,6 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System},
       html = {https://arxiv.org/abs/2010.09090},
       abstract = {Galactic outflows have density, temperature, and velocity variations at least as large as those of the multiphase, turbulent interstellar medium (ISM) from which they originate. We have conducted a suite of parsec-resolution numerical simulations using the TIGRESS framework, in which outflows emerge as a consequence of interaction between supernovae (SNe) and the star-forming ISM. The outflowing gas is characterized by two distinct thermal phases, cool (T ≲ 10<sup>4</sup> K) and hot (T ≳ 10<sup>6</sup> K), with most mass carried by the cool phase and most energy and newly injected metals carried by the hot phase. Both components have a broad distribution of outflow velocity, and especially for cool gas this implies a varying fraction of escaping material depending on the halo potential. Informed by the TIGRESS results, we develop straightforward analytic formulae for the joint probability density functions (PDFs) of mass, momentum, energy, and metal loading as distributions in outflow velocity and sound speed. The model PDFs have only two parameters, star formation rate surface density \Sigma<sub>SFR</sub> and the metallicity of the ISM, and fully capture the behavior of the original TIGRESS simulation PDFs over \Sigma<sub>SFR</sub>~\in (10<sup>-4</sup>,1) M<sub>\odot</sub>~kpc<sup>-2</sup>~Myr<sup>-1</sup>. Employing PDFs from resolved simulations will enable implementations of subgrid models for galaxy formation with wind velocity and temperature (as well as total loading factors) that are based on theoretical predictions rather than empirical tuning. This is a critical step to incorporate advances from TIGRESS and other high-resolution simulations in future cosmological hydrodynamics and semi-analytic galaxy formation models. We release a Python package to prototype our model and to ease its implementation.}
-}
-
-@ARTICLE{2020arXiv200911309S,
-       author = {Smith, M. C. and {Bryan}, G. L. and {Somerville}, R. S. and {Hu}, C.-Y. and {Teyssier}, R. and {Burkhart}, B. and {Hernquist}, L.},
-        title = "{Efficient early stellar feedback can suppress galactic outflows by reducing supernova clustering}",
-     keywords = {Astrophysics - Astrophysics of Galaxies},
-         year = 2020,
-        month = sep,
-        abbr = {arXiv},
-          eid = {arXiv:2009.11309},
-        pages = {arXiv:2009.11309},
-archivePrefix = {arXiv},
-       eprint = {2009.11309},
- primaryClass = {astro-ph.GA},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2020arXiv200911309S},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System},
-      html = {https://arxiv.org/abs/2009.11309},
-      abstract = {We present a novel set of stellar feedback models, implemented in the moving-mesh code Arepo, designed for galaxy formation simulations with near-parsec (or better) resolution. These include explicit sampling of stars from the IMF, allowing feedback to be linked to individual massive stars, an improved method for the modelling of H II regions, photoelectric heating from a spatially varying FUV field and supernova feedback. We perform a suite of 32 simulations of isolated <em>M<sub>vir</sub></em> = 10<sup>10</sup> M<sub>\odot</sub> galaxies with a baryonic mass resolution of 20 M<sub>\odot</sub> in order to study the non-linear coupling of the different feedback channels. We find that photoionization and supernova feedback are both independently capable of regulating star formation to the same level, while photoelectric heating is inefficient. Photoionization produces a considerably smoother star formation history than supernovae. When all feedback channels are combined, the additional suppression of star formation rates is minor. However, outflow rates are substantially reduced relative to the supernova only simulations. We show that this is directly caused by a suppression of supernova clustering by the photoionization feedback, disrupting star forming clouds prior to the first supernovae. We demonstrate that our results are robust to variations of our star formation prescription, feedback models and the gas fraction of the disk. Our results also imply that the burstiness of star formation and the mass loading of outflows may be overestimated if the adopted star particle mass is considerably larger than the mass of individual stars because this imposes a minimum cluster size.}
 }
 
 @ARTICLE{2020arXiv200616314M,
