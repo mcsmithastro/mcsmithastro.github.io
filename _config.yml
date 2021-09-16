@@ -130,7 +130,6 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-twitter-plugin
-  - jekyll-seo-tag
   - jemoji
 
 # Extras
