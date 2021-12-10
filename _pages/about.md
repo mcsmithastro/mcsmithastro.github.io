@@ -11,7 +11,7 @@ profile:
     <p>Institute for Theoretical Astrophysics (ITA)</p>
     <p>University of Heidelberg<p>
     <p>Albert-Ueberle-Str. 2, 69120, Heidelberg, Germany</p>
-    <p> </p>
+    <p>and</p>
 	<p>Max Planck Institute for Astronomy (MPIA)</p>
 	<p>Königstuhl 17, 69117, Heidelberg, Germany</p>
 
