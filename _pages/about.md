@@ -8,12 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Institute for Theoretical Astrophysics (ITA)</p>
-    <p>University of Heidelberg<p>
-    <p>Albert-Ueberle-Str. 2, 69120, Heidelberg, Germany</p>
-    <p>and</p>
-	<p>Max Planck Institute for Astronomy (MPIA)</p>
-	<p>Königstuhl 17, 69117, Heidelberg, Germany</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
