@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Astrophysicist at the Institute for Theoretical Astrophysics, University of Heidelberg and the Max Planck Institute for Astronomy
+description: Astrophysicist<br>Institute for Theoretical Astrophysics, University of Heidelberg and the Max Planck Institute for Astronomy
 
 profile:
   align: right
