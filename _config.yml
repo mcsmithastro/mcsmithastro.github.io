@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Matthew
 middle_name: C.
 last_name: Smith
-email: matthew.smith@cfa.harvard.edu
+email: matthew.smith@uni-heidelberg.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Matthew C. Smith, astrophysicist
 footer_text: >
