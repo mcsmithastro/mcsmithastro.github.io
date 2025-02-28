@@ -17,6 +17,26 @@ archivePrefix = {arXiv},
       abstract = {We deploy the new Arkenstone galactic wind model in cosmological simulations for the first time, allowing us to robustly resolve the evolution and impact of high specific energy winds. In a (25 Mpc/h)^3 box we perform a set of numerical experiments that systematically vary the mass and energy loadings of such winds, finding that their energy content is the key parameter controlling the stellar to dark matter mass ratio. Increasing the mass loading, at fixed energy, actually results in mildly enhanced star formation, counter to prevailing wisdom but in agreement with recent analytic models. Of the simple parametrisations that we test, we find that an energy loading that scales inversely with halo mass best matches a wide range of observations, and can do so with mass loadings drastically lower than those in most previous cosmological simulations. In this scenario, much less material is ejected from the interstellar medium. Instead, winds both heat gas in the circumgalactic medium, slowing infall onto the galaxy, and also drive shocks beyond the virial radius, preventing accretion onto the halo in the first place. We have not yet tied the mass and energy loadings to high-resolution simulations (a key goal of the Learning the Universe collaboration); however, we can already report that a much lower fraction of the available supernova energy is needed in preventative galaxy regulation than required by ejective wind feedback models such as IllustrisTNG.}
 }
 
+@ARTICLE{Smith2024b,
+       author = {{Smith}, M. C. and {Fielding}, D. B. and {Bryan}, G. L. and {Bennett}, J. S. and {Kim}, C.-G. and {Ostriker}, E. C. and {Somerville}, R. S.},
+        title = "{ARKENSTONE - II. A model for unresolved cool clouds entrained in galactic winds in cosmological simulations}",
+      journal = {MNRAS},
+        abbr = {MNRAS},
+     keywords = {Astrophysics - Astrophysics of Galaxies},
+         year = 2024,
+        month = dec,
+        volume = {535},
+        pages = {3550},
+          doi = {10.1093/mnras/stae2589},
+archivePrefix = {arXiv},
+       eprint = {2408.15321},
+ primaryClass = {astro-ph.GA},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp.2508S},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+      html = {https://ui.adsabs.harvard.edu/abs/2024MNRAS.535.3550S/abstract},
+     abstract = {Arkenstone is a new scheme that allows multiphase, stellar feedback-driven winds to be included in coarse resolution cosmological simulations. The evolution of galactic winds and their subsequent impact on the circumgalactic medium are altered by exchanges of mass, energy, momentum, and metals between their component phases. These exchanges are governed by complex, small-scale physical processes that cannot be resolved in cosmological simulations. In this second presentation paper, we describe Arkenstone's novel cloud particle approach for modelling unresolvable cool clouds entrained in hot, fast winds. This general framework allows models of the cloud-wind interaction, derived from state-of-the-art high-resolution simulations, to be applied in a large-scale context. In this work, we adopt a cloud evolution model that captures simultaneous cloud mass loss to and gain from the ambient hot phase via turbulent mixing and radiative cooling, respectively. We demonstrate the scheme using non-cosmological idealized simulations of a galaxy with a realistic circumgalactic medium component, using the Arepo code. We show that the ability of a high-specific energy wind component to perform preventative feedback may be limited by heavy loading of cool clouds coupled into it. We demonstrate that the diverging evolution of clouds of initially differing masses leads to a complex velocity field for the cool phase and a cloud mass function that varies both spatially and temporally in a non-trivial manner. These latter two phenomena can manifest in the simulation because of our choice of a Lagrangian discretisation of the cloud population, in contrast to other proposed schemes.}
+}
+
 @ARTICLE{Hassan2024,
        author = {{Hassan}, S. and {Ostriker}, E. C. and {Kim}, C.-G. and {Bryan}, G. L. and {Burger}, J. D. and {Fielding}, D. B. and {Forbes}, J. C. and {Genel}, S. and {Hernquist}, L. and {Jeffreson}, S.~M.~R. and {Motwani}, B. and {Smith}, M. C. and {Somerville}, R. S. and {Steinwandel}, U. P. and {Teyssier}, R.},
         title = "{Towards Implementation of the Pressure-Regulated, Feedback-Modulated Model of Star Formation in Cosmological Simulations: Methods and Application to TNG}",
@@ -34,26 +54,6 @@ archivePrefix = {arXiv},
  primaryClass = {astro-ph.GA},
        html = {https://ui.adsabs.harvard.edu/abs/2024arXiv240909121H},
     abstract = {Traditional star formation subgrid models implemented in cosmological galaxy formation simulations, such as that of Springel & Hernquist (2003, hereafter SH03), employ adjustable parameters to satisfy constraints measured in the local Universe. In recent years, however, theory and spatially-resolved simulations of the turbulent, multiphase, star-forming ISM have begun to produce new first-principles models, which when fully developed can replace traditional subgrid prescriptions. This approach has advantages of being physically motivated and predictive rather than empirically tuned, and allowing for varying environmental conditions rather than being tied to local Universe conditions. As a prototype of this new approach, by combining calibrations from the TIGRESS numerical framework with the Pressure-Regulated Feedback-Modulated (PRFM) theory, simple formulae can be obtained for both the gas depletion time and an effective equation of state. Considering galaxies in TNG50, we compare the "native" simulation outputs with post-processed predictions from PRFM. At TNG50 resolution, the total midplane pressure is nearly equal to the total ISM weight, indicating that galaxies in TNG50 are close to satisfying vertical equilibrium. The measured gas scale height is also close to theoretical equilibrium predictions. The slopes of the effective equations of states are similar, but with effective velocity dispersion normalization from SH03 slightly larger than that from current TIGRESS simulations. Because of this and the decrease in PRFM feedback yield at high pressure, the PRFM model predicts shorter gas depletion times than the SH03 model at high densities and redshift. Our results represent a first step towards implementing new, numerically calibrated subgrid algorithms in cosmological galaxy formation simulations.}
-}
-
-@ARTICLE{Smith2024b,
-       author = {{Smith}, M. C. and {Fielding}, D. B. and {Bryan}, G. L. and {Bennett}, J. S. and {Kim}, C.-G. and {Ostriker}, E. C. and {Somerville}, R. S.},
-        title = "{ARKENSTONE - II. A model for unresolved cool clouds entrained in galactic winds in cosmological simulations}",
-      journal = {MNRAS},
-        abbr = {MNRAS},
-     keywords = {Astrophysics - Astrophysics of Galaxies},
-         year = 2024,
-        month = nov,
-        volume = {in press},
-        pages = {stae2589},
-          doi = {10.1093/mnras/stae2589},
-archivePrefix = {arXiv},
-       eprint = {2408.15321},
- primaryClass = {astro-ph.GA},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp.2508S},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System},
-      html = {https://ui.adsabs.harvard.edu/abs/2024arXiv240815321S},
-     abstract = {Arkenstone is a new scheme that allows multiphase, stellar feedback-driven winds to be included in coarse resolution cosmological simulations. The evolution of galactic winds and their subsequent impact on the circumgalactic medium are altered by exchanges of mass, energy, momentum, and metals between their component phases. These exchanges are governed by complex, small-scale physical processes that cannot be resolved in cosmological simulations. In this second presentation paper, we describe Arkenstone's novel cloud particle approach for modelling unresolvable cool clouds entrained in hot, fast winds. This general framework allows models of the cloud-wind interaction, derived from state-of-the-art high-resolution simulations, to be applied in a large-scale context. In this work, we adopt a cloud evolution model that captures simultaneous cloud mass loss to and gain from the ambient hot phase via turbulent mixing and radiative cooling, respectively. We demonstrate the scheme using non-cosmological idealized simulations of a galaxy with a realistic circumgalactic medium component, using the Arepo code. We show that the ability of a high-specific energy wind component to perform preventative feedback may be limited by heavy loading of cool clouds coupled into it. We demonstrate that the diverging evolution of clouds of initially differing masses leads to a complex velocity field for the cool phase and a cloud mass function that varies both spatially and temporally in a non-trivial manner. These latter two phenomena can manifest in the simulation because of our choice of a Lagrangian discretisation of the cloud population, in contrast to other proposed schemes.}
 }
 
 @ARTICLE{Smith2024a,
